@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 101px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+li:hover{
+    color: #00754a;
+    cursor: pointer;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;   
+}
+
+.location{
+    margin-right: 40px;
+}
+
+.location:hover{
+    color: #00754a;
+    cursor: pointer;
+}
+
+.sign-in-btn{
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.sign-in-btn:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.join-now-btn{
+    margin-right: 30px;
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    
+
+}
+.join-now-btn:hover{
+    background-color: rgba(0,0,0,.7);
+    cursor: pointer;
+}
+
+.tile-1{
+    margin-top: 30px;
+    
+    display:flex;
+}
+
+.left-part-1{
+    width: 50%;
+    margin-left: 30px;
+    
+
+}
+.left-part-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-part-1{
+    width: 50%;
+    background-color: #d4e9e2;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.right-part-1 h1{
+    font-size: 24px;
+    font-weight: 600!important;
+    color: #1e3932;
+    
+}
+
+.right-part-1 p{
+    color: #1e3932;
+    font-size: 19px;
+    
+}
+
+.tile-btn-1{
+   
+    border: 1px solid  #1e3932;
+    color:#1e3932;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    max-width: calc(1em * (calc(600 / 13)));
+    font-size: 16px;
+    font-family: sans-serif;
+
+    
+    border-radius: 50px;
+    padding: 7px 14px;
+}
+.tile-btn-1:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+
+.tile-2{
+   
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-part-2{
+    width: 50%;
+    background-color: rgb(246, 191, 217);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.left-part-2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.left-part-2 p{
+    font-size: 24px;
+    font-weight: 400;   
+    text-align: center;
+}
+
+.tile-btn-2{
+   
+    border: 1px solid  #1e3932;
+    color:#1e3932;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    
+    font-size: 16px;
+    font-family: sans-serif;
+
+    
+    border-radius: 50px;
+    padding: 7px 14px;
+}
+.tile-btn-2:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.right-part-2{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.right-part-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.tile-3{
+    margin-top: 30px;
+    
+    display:flex;
+}
+
+.left-part-3{
+    width: 50%;
+    margin-left: 30px;
+    
+
+}
+.left-part-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-part-3{
+    width: 50%;
+    background-color: #a0c292;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.right-part-3 h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(30, 57, 50)
+    
+}
+
+.right-part-3 p{
+    color: #1e3932;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.tile-btn-3{
+   
+    border: 1px solid  #1e3932;
+    color:#1e3932;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    max-width: calc(1em * (calc(600 / 13)));
+    font-size: 16px;
+    font-family: sans-serif;
+
+    
+    border-radius: 50px;
+    padding: 7px 14px;
+}
+.tile-btn-3:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.tile-4{
+   
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-part-4{
+    width: 50%;
+    background-color: #d4e9e2;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.left-part-4 h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(30, 57, 50);
+}
+
+.left-part-4 p{
+    font-size: 24px;
+    font-weight: 400;   
+    text-align: center;
+    color: rgb(30, 57, 50);
+}
+
+.tile-btn-4{
+   
+    border: 1px solid  #1e3932;
+    color:#1e3932;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    
+    font-size: 16px;
+    font-family: sans-serif;
+
+    
+    border-radius: 50px;
+    padding: 7px 14px;
+}
+.tile-btn-4:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.right-part-4{
+    width: 50%;
+    margin-right: 30px;
+    background-color: #d4e9e2;
+}
+
+.right-part-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #d4e9e2;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    justify-content: space-between; 
+    display: flex;
+
+}
+.left-foot{
+    margin-left: 30px;
+}
+
+.right-foot{
+    display: flex;
+    margin-top: 50px;
+    font-size: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.in{
+    margin-right: 30px;
+    color: #1e3932;
+
+}
+
+.in:hover{
+    color: #1e3932;
+    font-size: 50px;
+    transition: 0.1s;
+}
+
+.insta{
+    margin-right: 30px;
+    color: #1e3932;
+}
+.insta:hover{
+    color: #1e3932;
+    font-size: 50px;
+    transition: 0.1s;
+}
+
+
+.twi{
+    margin-right: 40px;
+    color: #1e3932;
+}
+.twi:hover{
+    color: #1e3932;
+    font-size: 50px;
+    transition: 0.1s;
+}
